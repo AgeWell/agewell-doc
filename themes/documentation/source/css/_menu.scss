@@ -71,6 +71,15 @@
   display: block;
   text-decoration: none;
 
+  .link {
+    display: block;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   i, span {
     display: inline-block;
     vertical-align: top;

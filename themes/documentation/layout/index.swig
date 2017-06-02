@@ -10,6 +10,7 @@
 <body>
   <div class='menu'>
     <div class='logo'>
+      <img src='{{ url_for(theme.logo) }}' alt='' />
       Documentation
     </div>
     <nav class='menu-nav'>
@@ -26,9 +27,14 @@
         </ul>
       {% endfor %}
     </nav>
-    <a class='footer' href='https://github.com/sitepoint-editors/hexo-documentation'>
-      Project on github
-    </a>
+    <div class='footer'>
+      <a class='link' href='https://agewell.herokuapp.com/' target='_blank'>
+        Project in testing
+      </a>
+      <a class='link' href='https://github.com/AgeWell/agewell-core' target='_blank'>
+        Project on github
+      </a>
+    </div>
   </div>
   <div class='page'>
     <div class='page-content'>

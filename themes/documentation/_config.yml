@@ -2,3 +2,6 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+logo: /images/logo.png
+favicon: /images/favicon.ico
