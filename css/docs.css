@@ -53,6 +53,11 @@
   border-top: 1px solid #efefef;
   display: block;
   text-decoration: none; }
+  .footer .link {
+    display: block;
+    text-decoration: none; }
+    .footer .link:hover {
+      text-decoration: none; }
   .footer i, .footer span {
     display: inline-block;
     vertical-align: top;
