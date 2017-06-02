@@ -38,8 +38,8 @@
   </div>
   <div class='page'>
     <div class='page-content'>
-      <h1>What is this?</h1>
-      A management solution for organizations that connect older adults and caregivers with services that support healthy aging and independence.
+      <h1>{{page.title}}</h1>
+      {{page.content}}
     </div>
   </div>
   <div class='switch-page'>
